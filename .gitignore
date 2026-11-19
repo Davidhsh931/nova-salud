@@ -25,3 +25,7 @@ EOF
 # Copias de seguridad adicionales
 *.bak-*
 *.backup
+
+# Documentación académica local
+documentacion/
+/Infografía Nova Salud_ Arquitectura y Flujos.png
