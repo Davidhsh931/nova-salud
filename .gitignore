@@ -1,0 +1,27 @@
+cat > .gitignore <<'EOF'
+# Dependencias
+node_modules/
+
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+
+# Archivos generados
+dist/
+coverage/
+*.log
+
+# macOS
+.DS_Store
+
+# Copias de seguridad y scripts temporales
+*.bak
+*.antes-corregir-reportes
+crear-vendedor.js
+probar-permisos.js
+cambiar-clave.js
+EOF
+# Copias de seguridad adicionales
+*.bak-*
+*.backup
